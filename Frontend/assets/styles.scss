@@ -1,0 +1,108 @@
+/**
+* In case you get angry, curse your css/scss here
+*/
+
+.spl-btn {
+  box-shadow: 0 20px 20px -10px var(--v-primary-base) !important;
+}
+.spl-warn {
+  box-shadow: 0 20px 20px -10px var(--v-warning-base) !important;
+}
+.spl-error {
+  box-shadow: 0 20px 20px -10px var(--v-error-base) !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* .theme--dark.v-application {
+  background-color: var(--v-background-base) !important;
+} */
+
+/* .theme--dark {
+	.v-tabs-items,
+  .v-item-group {
+		background-color: var(--v-background-base) !important;
+  }
+	.v-card,.v-btn--has-bg{background-color: var(--v-info-base) !important;}
+} */
+
+.blue--background{
+  background-color: #00acee !important;
+}
+
+a:not(.v-btn){
+  text-decoration: unset !important;
+  color:unset !important;
+}
+
+.toasted{
+  font-family: 'Roboto','Sans-serif' !important;
+  font-weight: bold !important;
+}
+
+.primary--background{
+  background-color: var(--v-primary-base);
+  background: linear-gradient(var(--v-primary-lighten2),var(--v-primary-accent4))
+}
+
+.secondary--background{
+  background-color: var(--v-secondary-base);
+  background: linear-gradient(var(--v-secondary-lighten1),var(--v-secondary-accent4))
+}
+
+.v-btn{
+  text-transform: none !important;
+}
+
+.patua-one{
+  font-family: 'Patua One', cursive !important;
+}
+
+.spl-orange{
+  box-shadow: 0 10px 20px -10px #ff9800 !important;
+}
+
+.heading4{
+  font-size: clamp(3rem, 6.5vmax, 5rem);
+  font-family: "Patua One", "Georgia", "Serif";
+  letter-spacing: 2px;
+}
+.heading3{
+  font-size: clamp(2.4rem, 4vmax, 4rem);
+  line-height: 1.2em;
+  font-family: "Patua One", "Georgia", "Serif";
+  letter-spacing: 2px;
+}
+.heading2{
+  letter-spacing: 2px;
+  font-size: clamp(1.4rem, 3vmax, 3rem);
+  font-family: "Patua One", "Georgia", "Serif";
+}
+
+th{
+  color: #000 !important;
+}
+
+.v-navigation-drawer:not(.v-navigation-drawer--mini-variant) .v-navigation-drawer__content .activeItem .v-list-item__icon i{
+  &::before{
+    color: var(--v-primary-base) !important;
+  }
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px -10px rgb(0, 0, 0) !important;
+} 
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+table {
+  border-collapse: collapse;
+}
+td{min-width: 50px !important;}
+p{
+  margin-bottom: 5px !important;
+}
